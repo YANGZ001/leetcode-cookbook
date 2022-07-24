@@ -6,9 +6,7 @@
 # Code
 
 ```java
-class Solution {
 
-}
 ```
 
 # Complexity Analysis
