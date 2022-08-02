@@ -4,14 +4,20 @@ Efficient Cost
 
 You will be given an integer array and a `threshold` value. The threshold represents the maximum length of subarrays that may be created for the challenge. Each subarray created has a cost equal to the maximum integrr within the subarray. Partition the entire array into subarrays with lengths less than or equal to the threshold, and do it at a minimum cost. The subarrays are to be chosen from contiguous elements, and the given array must remain in its original order.
 
-Example 1:
+**Example 1:**
+
 arr=1,3,4,5,2,6
+
 threshold=3
+
 ans=10
 
-Example 2:
+**Example 2:**
+
 arr=1,5,2
+
 threshold=2
+
 ans=6
 
 # Idea
@@ -20,6 +26,7 @@ DFS with memo.
 
 `memo[i]` means the minimul sum of costs from index `i` onwards.
 
+```java
 `i` travers from `n-1` to `0`:
 	curMax = 0
 	best = Integer.MAX_VALUE;
@@ -30,6 +37,7 @@ DFS with memo.
 		else:
 			best = min(best, mmax)
 	memo[i] = best
+```
 
 # Code
 
