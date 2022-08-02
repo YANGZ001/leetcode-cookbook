@@ -99,7 +99,7 @@ def dfs(arr, threshold, memo, index):
 
 nums = list(map(int, input().split(",")))
 n = int(input())
-print("ans = ", calculateCost(nums, n))
+print("ans = ", calculateCostDFS(nums, n))
         
 
 """
@@ -120,7 +120,7 @@ ans =6
 
 Time Complexity
 
-O(N)
+O(N\*T), where `T` is `threshold`
 
 Space Complexity
 
