@@ -1,4 +1,4 @@
-# LeetCode Link
+# Challenge description
 
 Efficient Cost
 
