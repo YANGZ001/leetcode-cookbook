@@ -4,7 +4,7 @@
 
 # Idea
 
-Dymanic programming.
+Dynamic programming.
 
 **Definition of dp**
 
