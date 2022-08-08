@@ -10,7 +10,7 @@ Dynamic programming.
 
 
 
-**State Tranfer Funciton**
+**State Transfer Function**
 
 
 
