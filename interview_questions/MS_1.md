@@ -67,7 +67,7 @@ class Solution {
 
 Time Complexity
 
-O(N)
+O(NlogN)
 
 Space Complexity
 
