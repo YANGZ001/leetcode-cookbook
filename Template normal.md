@@ -8,7 +8,7 @@
 
 # Code
 
-```java
+```cpp
 
 ```
 
