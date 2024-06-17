@@ -2,17 +2,20 @@
 
 
 
-# Idea
+# Solution 1
+
+## Idea
 
 
 
-# Code
+## Code
 
 ```cpp
-
 ```
 
-# Complexity Analysis
+
+
+## Complexity Analysis
 
 **Time Complexity**
 
